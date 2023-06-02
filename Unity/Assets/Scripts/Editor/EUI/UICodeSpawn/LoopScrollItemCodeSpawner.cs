@@ -12,8 +12,8 @@ public partial class UICodeSpawner
 {
     static public void SpawnLoopItemCode(GameObject gameObject)
     {
-        // Path2WidgetCachedDict?.Clear();
-        // Path2WidgetCachedDict = new Dictionary<string, List<Component>>();
+        Path2WidgetCachedDict?.Clear();
+        Path2WidgetCachedDict = new Dictionary<string, List<Component>>();
         // var le = gameObject.GetComponent<LayoutElement>();
         // if (le == null)
         // {
@@ -24,10 +24,10 @@ public partial class UICodeSpawner
         //     var path = PathHelper.GetUIItemPath(gameObject.name);
         //     PrefabUtility.SaveAsPrefabAsset(gameObject, path);
         // }
-        // FindAllWidgets(gameObject.transform, "");
-        // SpawnCodeForScrollLoopItemBehaviour(gameObject);
-        // SpawnCodeForScrollLoopItemViewSystem(gameObject);
-        // AssetDatabase.Refresh();
+        FindAllWidgets(gameObject.transform, "");
+        SpawnCodeForScrollLoopItemBehaviour(gameObject);
+        SpawnCodeForScrollLoopItemViewSystem(gameObject);
+        AssetDatabase.Refresh();
     }
     
     static void SpawnCodeForScrollLoopItemViewSystem(GameObject gameObject)

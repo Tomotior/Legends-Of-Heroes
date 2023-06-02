@@ -320,11 +320,17 @@
      <Reference Include="LZ4">
      <HintPath>D:\Demo\EGame\Unity\Library\PackageCache\com.focus-creative-games.hybridclr_unity@00cedc166f\Plugins\LZ4.dll</HintPath>
      </Reference>
+     <Reference Include="DOTween43">
+     <HintPath>D:\Demo\EGame\Unity\Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween43.dll</HintPath>
+     </Reference>
      <Reference Include="CommandLine">
      <HintPath>D:\Demo\EGame\Unity\Assets\Plugins\CommandLine.dll</HintPath>
      </Reference>
      <Reference Include="MongoDB.Driver">
      <HintPath>D:\Demo\EGame\Unity\Assets\Plugins\MongoDB\MongoDB.Driver.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Pdb">
+     <HintPath>D:\Demo\EGame\Unity\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
      </Reference>
      <Reference Include="NLog">
      <HintPath>D:\Demo\EGame\Unity\Assets\Plugins\NLog.dll</HintPath>
@@ -341,14 +347,14 @@
      <Reference Include="MongoDB.Driver.Core">
      <HintPath>D:\Demo\EGame\Unity\Assets\Plugins\MongoDB\MongoDB.Driver.Core.dll</HintPath>
      </Reference>
-     <Reference Include="MongoDB.Bson">
-     <HintPath>D:\Demo\EGame\Unity\Assets\Plugins\MongoDB\MongoDB.Bson.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Burst.Cecil.Pdb">
-     <HintPath>D:\Demo\EGame\Unity\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+     <Reference Include="DOTween">
+     <HintPath>D:\Demo\EGame\Unity\Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Mdb">
      <HintPath>D:\Demo\EGame\Unity\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween50">
+     <HintPath>D:\Demo\EGame\Unity\Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween50.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil">
      <HintPath>D:\Demo\EGame\Unity\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
@@ -356,20 +362,14 @@
      <Reference Include="Unity.Burst.Cecil.Rocks">
      <HintPath>D:\Demo\EGame\Unity\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
      </Reference>
-     <Reference Include="DOTween43">
-     <HintPath>D:\Demo\EGame\Unity\Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween43.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTween">
-     <HintPath>D:\Demo\EGame\Unity\Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTween50">
-     <HintPath>D:\Demo\EGame\Unity\Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween50.dll</HintPath>
-     </Reference>
      <Reference Include="DOTween46">
      <HintPath>D:\Demo\EGame\Unity\Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween46.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenEditor">
      <HintPath>D:\Demo\EGame\Unity\Assets\Scripts\ThirdParty\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="MongoDB.Bson">
+     <HintPath>D:\Demo\EGame\Unity\Assets\Plugins\MongoDB\MongoDB.Bson.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\Demo\EGame\Unity\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
