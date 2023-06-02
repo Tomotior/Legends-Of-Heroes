@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LOLAtlas_Battle
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 02577744f64813543b339581d8ae93a8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7f782410a551a2941ad87716a0268b15, type: 3}
+  - {fileID: 21300000, guid: 9aca6540f92a43a41aefed12e0e0d320, type: 3}
+  - {fileID: 21300000, guid: 5f6b3c1125208b64590fb7e3fc4880e1, type: 3}
+  - {fileID: 21300000, guid: fccd3714d7cd39541a9899b0d352bb77, type: 3}
+  - {fileID: 21300000, guid: 9d6bff54111ffbf439814079ad2fcef3, type: 3}
+  - {fileID: 21300000, guid: 169b7906347f3af4a95cb3931b052476, type: 3}
+  - {fileID: 21300000, guid: c7d91b57363fa054fbbf3da9a66c5767, type: 3}
+  - {fileID: 21300000, guid: 8d093408d074a7148875c027dff70710, type: 3}
+  - {fileID: 21300000, guid: 1417eb78e673cf4429bb091c7fb6e717, type: 3}
+  - {fileID: 21300000, guid: 90ba710913a83ce4b938569d10dcfccc, type: 3}
+  - {fileID: 21300000, guid: 399d51e95192d604ca0e3456be24251a, type: 3}
+  - {fileID: 21300000, guid: 4552b64b829b1bc49ac078a38b40f220, type: 3}
+  - {fileID: 21300000, guid: eac9655b3cac1964e9a9fc62c205f8de, type: 3}
+  - {fileID: 21300000, guid: e799d79ef10d47e4cb898011ace1b775, type: 3}
+  - {fileID: 21300000, guid: 8e26aeaff7d1bcc41b37b333e371862d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Defeat
+  - EndOfGame_I19
+  - BossBloodBg
+  - EndOfGame_I7
+  - BloodYellow
+  - EndOfGame_I10
+  - BloodGreen
+  - EndOfGame_I16
+  - MonsterBlood
+  - MonsterBloodBg
+  - BloodOrange
+  - EndOfGame_I9
+  - Victory
+  - BloodRed
+  - Title
+  m_RenderDataMap: {}
+  m_Tag: LOLAtlas_Battle
+  m_IsVariant: 0

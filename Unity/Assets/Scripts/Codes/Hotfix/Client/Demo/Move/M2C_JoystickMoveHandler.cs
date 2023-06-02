@@ -8,11 +8,11 @@ namespace ET.Client
 		protected override async ETTask Run(Session session, M2C_JoystickMove message)
 		{
 			Unit unit = session.DomainScene().CurrentScene().GetComponent<UnitComponent>().Get(message.Id);
-
-			// float speed = unit.GetComponent<NumericComponent>().GetAsFloat(NumericType.Speed);
+			 float speed = unit.GetComponent<NumericComponent>().GetAsFloat(NumericType.Speed);
             unit.Position = message.Position;
             unit.Forward = message.MoveForward;
-            // await unit.GetComponent<MoveComponent>().MoveToAsync(message.Points, speed);
-        }
+            await ETTask.CompletedTask;
+            // await unit.GetComponent<MoveComponent>().MoveToAsync(message.points, speed);
+		}
 	}
 }

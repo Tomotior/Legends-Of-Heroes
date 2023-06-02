@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using ET.Client;
 using UnityEngine;
 using UnityEngine.U2D;
 using UnityEngine.UIElements;
@@ -19,15 +20,13 @@ namespace ET
         {
             try
             {
-                /*ResourcesComponent.Instance.LoadBundle(atlasName.StringToAB());
-                SpriteAtlas spriteAtlas = ResourcesComponent.Instance.GetAsset(atlasName.StringToAB(),atlasName) as SpriteAtlas ;*/
-                /*Sprite sprite = spriteAtlas.GetSprite(spriteName);
+                SpriteAtlas spriteAtlas = ResComponent.Instance.LoadAsset<SpriteAtlas>(atlasName)  ;
+                Sprite sprite = spriteAtlas.GetSprite(spriteName);
                 if ( null == sprite )
                 {
                     Log.Error($"sprite is null: {spriteName}");
                 }
-                return sprite;*/
-                return null;
+                return sprite;
             }
             catch (Exception e)
             {
@@ -45,14 +44,14 @@ namespace ET
         {
             try
             {
-                /*await ResourcesComponent.Instance.LoadBundleAsync(atlasName.StringToAB());
-                SpriteAtlas spriteAtlas = ResourcesComponent.Instance.GetAsset(atlasName.StringToAB(),atlasName) as SpriteAtlas ;
+                SpriteAtlas spriteAtlas = await ResComponent.Instance.LoadAssetAsync<SpriteAtlas>(atlasName)  ;
                 Sprite sprite = spriteAtlas.GetSprite(spriteName);
                 if (null == sprite)
                 {
                     Log.Error($"sprite is null: {spriteName}");
                 }
-                return sprite;*/
+
+                return sprite;
                 return null;
             }
             catch (Exception e)
