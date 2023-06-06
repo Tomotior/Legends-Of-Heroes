@@ -9,5 +9,6 @@
         WindowID_Helper,            //提示界面
         WindowID_Battle,            //提示界面
         WindowID_Bag,               //背包界面
+        WindowID_ItemPopUp,         //物品详情界面
     }
 }
